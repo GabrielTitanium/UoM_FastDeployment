@@ -2,7 +2,6 @@ trigger: none
 pr: none
 
 variables:
-- group: Montreal-QA
 - name: agentName
   value: 'UoM-test-Agent'
 - name: pipelineWorkspace
@@ -21,18 +20,12 @@ variables:
   value: 'C:\Build\CustomerPackages\CustomerPackages\Canada\Montreal\Run-UploadPackages.ps1'
 - name: destinationPath
   value: 'C:\Build'
-- name: ServerInstance
-  value: 'sql2.tth.ds\test'
 - name: databaseName
   value: 'UoM_test'
 - name: organization
   value: 'Titanium-Solutions'
 - name: project
   value: 'Titanium'
-- name: variableGroupId
-  value: '30'
-- name: msAzurePATGroupVariables
-  value: '$(msAzurePAT)'
 - name: webAppPool
   value: 'TitaniumSolutionsDentalAppPool'
 resources:
