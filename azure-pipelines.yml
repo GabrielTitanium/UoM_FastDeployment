@@ -238,7 +238,7 @@ stages:
                 -url "https://UoM-test.environments.titanium.solutions/salud/api/" 
                 -username "TitaniumSupport" 
                 -password "SDT123"
-                -clinic "ADM" 
+                -clinic "1.4" 
                 -filepath "$(CustomerPackagesXmlReferencePath)"
             env:
               ADMIN_USERNAME: $(admin_username)
