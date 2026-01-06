@@ -34,9 +34,6 @@ resources:
       project: Titanium                     # The project where the pipeline exists
       source: "Salud Services Trunk"        # The actual pipeline name (quoted because it contains spaces)
       version: '52693'
-      trigger:
-        tags:
-        - ReleaseReady                      # Only trigger if the run includes the 'ReleaseReady' tag
 stages:     
    - stage: FetchSaludArtifacts
      displayName: "Download Stage"
